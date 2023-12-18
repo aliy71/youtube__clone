@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import 'swiper/css';
+@import 'swiper/css/pagination';
+@import 'swiper/css/navigation';
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 3px;
+    background-color: #ddd;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #999;
+    border-radius: 15px;
+}

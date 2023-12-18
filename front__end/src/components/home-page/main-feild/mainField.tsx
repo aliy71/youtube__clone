@@ -1,0 +1,19 @@
+import { Card } from '@/common'
+import React from 'react'
+
+type Props = {}
+
+const MainField = (props: Props) => {
+  return (
+    <div className='flex items-start justify-start gap-4 flex-wrap mt-6'>
+        <Card label='JavaScript' date='2 days' views='5M' author={{userImg: 'https://imgs.search.brave.com/pSd8RQBq8lu63O1wG54eWuK4IFLHsSSCrZS5KcwnCrg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGVsZnRzdGFjay5j/b20vaW1nL0phdmFT/Y3JpcHQvZmVhdHVy/ZSUyMGltYWdlJTIw/LSUyMGRpc3BsYXkl/MjBpbWFnZSUyMHdp/dGglMjBqYXZhc2Ny/aXB0LndlYnA', userName: 'Aliy'}} detail='https://imgs.search.brave.com/pSd8RQBq8lu63O1wG54eWuK4IFLHsSSCrZS5KcwnCrg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGVsZnRzdGFjay5j/b20vaW1nL0phdmFT/Y3JpcHQvZmVhdHVy/ZSUyMGltYWdlJTIw/LSUyMGRpc3BsYXkl/MjBpbWFnZSUyMHdp/dGglMjBqYXZhc2Ny/aXB0LndlYnA'/>
+        <Card label='JavaScript' date='2 days' views='5M' author={{userImg: 'https://imgs.search.brave.com/pSd8RQBq8lu63O1wG54eWuK4IFLHsSSCrZS5KcwnCrg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGVsZnRzdGFjay5j/b20vaW1nL0phdmFT/Y3JpcHQvZmVhdHVy/ZSUyMGltYWdlJTIw/LSUyMGRpc3BsYXkl/MjBpbWFnZSUyMHdp/dGglMjBqYXZhc2Ny/aXB0LndlYnA', userName: 'Aliy'}} detail='https://imgs.search.brave.com/pSd8RQBq8lu63O1wG54eWuK4IFLHsSSCrZS5KcwnCrg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGVsZnRzdGFjay5j/b20vaW1nL0phdmFT/Y3JpcHQvZmVhdHVy/ZSUyMGltYWdlJTIw/LSUyMGRpc3BsYXkl/MjBpbWFnZSUyMHdp/dGglMjBqYXZhc2Ny/aXB0LndlYnA'/>
+        <Card label='JavaScript' date='2 days' views='5M' author={{userImg: 'https://imgs.search.brave.com/pSd8RQBq8lu63O1wG54eWuK4IFLHsSSCrZS5KcwnCrg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGVsZnRzdGFjay5j/b20vaW1nL0phdmFT/Y3JpcHQvZmVhdHVy/ZSUyMGltYWdlJTIw/LSUyMGRpc3BsYXkl/MjBpbWFnZSUyMHdp/dGglMjBqYXZhc2Ny/aXB0LndlYnA', userName: 'Aliy'}} detail='https://imgs.search.brave.com/pSd8RQBq8lu63O1wG54eWuK4IFLHsSSCrZS5KcwnCrg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGVsZnRzdGFjay5j/b20vaW1nL0phdmFT/Y3JpcHQvZmVhdHVy/ZSUyMGltYWdlJTIw/LSUyMGRpc3BsYXkl/MjBpbWFnZSUyMHdp/dGglMjBqYXZhc2Ny/aXB0LndlYnA'/>
+        <Card label='JavaScript' date='2 days' views='5M' author={{userImg: 'https://imgs.search.brave.com/pSd8RQBq8lu63O1wG54eWuK4IFLHsSSCrZS5KcwnCrg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGVsZnRzdGFjay5j/b20vaW1nL0phdmFT/Y3JpcHQvZmVhdHVy/ZSUyMGltYWdlJTIw/LSUyMGRpc3BsYXkl/MjBpbWFnZSUyMHdp/dGglMjBqYXZhc2Ny/aXB0LndlYnA', userName: 'Aliy'}} detail='https://imgs.search.brave.com/pSd8RQBq8lu63O1wG54eWuK4IFLHsSSCrZS5KcwnCrg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGVsZnRzdGFjay5j/b20vaW1nL0phdmFT/Y3JpcHQvZmVhdHVy/ZSUyMGltYWdlJTIw/LSUyMGRpc3BsYXkl/MjBpbWFnZSUyMHdp/dGglMjBqYXZhc2Ny/aXB0LndlYnA'/>
+        <Card label='JavaScript' date='2 days' views='5M' author={{userImg: 'https://imgs.search.brave.com/pSd8RQBq8lu63O1wG54eWuK4IFLHsSSCrZS5KcwnCrg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGVsZnRzdGFjay5j/b20vaW1nL0phdmFT/Y3JpcHQvZmVhdHVy/ZSUyMGltYWdlJTIw/LSUyMGRpc3BsYXkl/MjBpbWFnZSUyMHdp/dGglMjBqYXZhc2Ny/aXB0LndlYnA', userName: 'Aliy'}} detail='https://imgs.search.brave.com/pSd8RQBq8lu63O1wG54eWuK4IFLHsSSCrZS5KcwnCrg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGVsZnRzdGFjay5j/b20vaW1nL0phdmFT/Y3JpcHQvZmVhdHVy/ZSUyMGltYWdlJTIw/LSUyMGRpc3BsYXkl/MjBpbWFnZSUyMHdp/dGglMjBqYXZhc2Ny/aXB0LndlYnA'/>
+        <Card label='JavaScript' date='2 days' views='5M' author={{userImg: 'https://imgs.search.brave.com/pSd8RQBq8lu63O1wG54eWuK4IFLHsSSCrZS5KcwnCrg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGVsZnRzdGFjay5j/b20vaW1nL0phdmFT/Y3JpcHQvZmVhdHVy/ZSUyMGltYWdlJTIw/LSUyMGRpc3BsYXkl/MjBpbWFnZSUyMHdp/dGglMjBqYXZhc2Ny/aXB0LndlYnA', userName: 'Aliy'}} detail='https://imgs.search.brave.com/pSd8RQBq8lu63O1wG54eWuK4IFLHsSSCrZS5KcwnCrg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGVsZnRzdGFjay5j/b20vaW1nL0phdmFT/Y3JpcHQvZmVhdHVy/ZSUyMGltYWdlJTIw/LSUyMGRpc3BsYXkl/MjBpbWFnZSUyMHdp/dGglMjBqYXZhc2Ny/aXB0LndlYnA'/>
+    </div>
+  )
+}
+
+export default MainField

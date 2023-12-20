@@ -1,6 +1,6 @@
 import { AiFillHome } from "react-icons/ai";
 import { SiYoutubeshorts } from "react-icons/si";
-import { MdSubscriptions } from "react-icons/md";
+import { MdSettings, MdSubscriptions } from "react-icons/md";
 import ISidebarData from "@/interface/sidebarData";
 
 const SidebarData: ISidebarData[] = [
@@ -21,7 +21,13 @@ const SidebarData: ISidebarData[] = [
         path: '/feed/subscriptions',
         icon: <MdSubscriptions />,
         isActive: false,
-    }
+    },
+    // {
+    //     label: 'settings',
+    //     path: '/settings',
+    //     icon: <MdSettings />,
+    //     isActive: false,
+    // },
 ]
 
 export default SidebarData

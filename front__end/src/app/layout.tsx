@@ -25,7 +25,7 @@ export default function RootLayout({
             <Navbar />
           </header>
           <main className='flex py-2'>
-            <aside className='w-[15%]'>
+            <aside className='w-[15%] h-full sticky top-0'>
               <Sidebar />
             </aside>
             <article className='w-[85%]'>
